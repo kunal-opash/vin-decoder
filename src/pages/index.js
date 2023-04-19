@@ -529,15 +529,14 @@ export default function Home() {
                   </div>
                 </Box>
 
-                <Box
+                {/* <Box
                   sx={{
                     border: 1,
                     borderColor: "#ddd",
                     borderRadius: "4px",
                   }}
                 >
-                  {/* <div> */}
-                  {/* <Box
+                  <Box
                     sx={{
                       color: "#333",
                       backgroundColor: "#f5f5f5",
@@ -580,9 +579,8 @@ export default function Home() {
                         and learn more about the history of this vehicle.
                       </div>
                     </div>
-                  </Box> */}
-                  {/* </div> */}
-                </Box>
+                  </Box>
+                </Box> */}
 
                 <Box
                   sx={{
