@@ -1208,58 +1208,10 @@ export default function Home() {
       </Box>
       <div className="footer">
         <div className="footer-content">
-          <p>
-            ©2023 &nbsp;
-            <a href="#" className="footer-link">
-              VINdecoder.pl
-            </a>
-            &nbsp; All rights reserved.
-            <a href="#" className="footer-link">
-              Privacy policy and cookies
-            </a>
-          </p>
         </div>
         <div className="footer-content1">
-          <p>
-            <strong>VIN Decoder</strong> (VINdecoder.pl) is not responsible for
-            the accuracy of the information it publishes - technical data,
-            characteristics, specifications, indicators, etc.
-            <br /> All manufacturers logos, marques, and all other trademarks
-            are the property of their respective owners.
-          </p>
         </div>
         <div>
-          <p className="footer-content2">
-            Your personal data is administered by AutoISO Sp. z o.o. (ul.
-            Gnieźnieńska 12, 40-142 Katowice, Polska, pomoc@autoiso.pl) We may
-            process your data (IP address, browser and OS and approximate GPS
-            location): - if required by our legal interest, for statistical
-            purposes and to manage the web site, for the period until we
-            complete our statistical analysis, but no longer than for 3 years
-            since the year in which the data was acquired; - for legally
-            justified reasons, in course of direct marketing of our services,
-            including with your consent, using profiling to screen any future
-            advertisements for our services in other web sites, throughout the
-            lifetime of the site or by the time your consent is withdrawn. We
-            cooperate with: marketing service providers, web browsers, social
-            networks,providers of tools for statistics and social network
-            management, host companies,who can receive this data from us (data
-            receivers). No data can be transferred to any non-EU country or
-            entity, other than those accepted by EU law. s You are not obliged
-            to provide us your data, but when you refuse to do so, the site may
-            function incorrectly.You have access to your data, for correction,
-            deletion or to impose restrictions on processing. You can also
-            protest against processing or any transfer of your data. You can
-            withdraw your consent for processing your data at any time, but this
-            will have no effect on legality of data processing completed before
-            your consent was withdrawn. You have the right to lodge your protest
-            to the Chairman of the Poland’s Personal Data Protection Office or
-            his counterpart in any other EU country. The web site may use
-            cookies and other similar technologies in aforementioned purposes.
-            You accept cookies by choosing the respective settings in your
-            browser. More about our data processing rules and browser settings
-            can be found in our [Privacy Policy].
-          </p>
         </div>
       </div>
     </>
