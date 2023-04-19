@@ -562,7 +562,7 @@ export default function Home() {
                           }}
                         />
                       </div>
-                      <div style={{ marginTop: "10px", fontSize: "16px" }}>
+                      {/* <div style={{ marginTop: "10px", fontSize: "16px" }}>
                         <a
                           href="#"
                           className="footer-link"
@@ -578,7 +578,7 @@ export default function Home() {
                           </span>
                         </a>
                         and learn more about the history of this vehicle.
-                      </div>
+                      </div> */}
                     </div>
                   </Box>
                   {/* </div> */}
