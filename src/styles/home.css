@@ -1,0 +1,296 @@
+html,
+body {
+  max-width: 100vw;
+  /* overflow-x: hidden; */
+}
+
+.new-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+}
+.container {
+  text-align: center;
+  /* margin-top: 125px; */
+  padding-top: 25px;
+  height: 327px;
+  width: 100%;
+  background-color: #5bc0de;
+
+  /* background-color: #ccc; */
+}
+
+.container h1 a {
+  color: #333;
+  letter-spacing: 10px;
+  font-size: 40px;
+}
+
+.container h2 {
+  font-feature-settings: "smcp";
+  font-variant: small-caps;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.content {
+  /* margin-top: 25px; */
+}
+.strong-value {
+  color: #333;
+  font-size: 25px;
+}
+
+.value {
+  font-size: 20px;
+}
+
+.input {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+  padding: 10px 10px 10px 10px;
+  width: 450px;
+  border: none;
+  border-radius: 9px;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+.btn-info {
+  cursor: pointer;
+  margin-top: 15px;
+  color: #fff;
+  margin: 20px;
+  height: 55px;
+  font-size: 16px;
+  background-color: #ccc;
+  border-color: #46b8da;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+}
+
+.btn:hover {
+  width: 150px;
+  font-weight: 700;
+  color: #333;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  transition: all 0.4s ease-in-out;
+}
+.check-btn {
+  color: #fff;
+  background-color: #428bca;
+  border-color: #357ebd;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 6px 12px;
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.all-content {
+  width: 100%;
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.content-detail {
+  width: 64%;
+  display: flex;
+}
+
+.content-detail1 {
+  margin-left: 25px;
+  width: 100%;
+}
+
+.detail-1 {
+  width: 357px;
+}
+
+.manufacture-detail {
+  border: 1px solid #ddd;
+  width: "357px";
+  height: "290px";
+  border-radius: 4px;
+  /* border-color: "#ddd"; */
+}
+
+.note-content {
+  width: 100%;
+  display: flex;
+  height: 40px;
+  padding: 5px;
+  align-items: "center";
+}
+
+.note-content1 {
+  width: 37%;
+  font-weight: bold;
+  color: #333;
+  padding: 2px;
+}
+
+.footer-line {
+  margin-top: 22px;
+  width: 1220px;
+  color: #333;
+  border-top: 1px solid #eee;
+}
+
+.footer {
+  margin-top: 25px;
+  /* margin-bottom: 105px; */
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 1100px;
+  height: 245px;
+  flex-direction: column;
+}
+
+.footer-content1 {
+  font-size: 12px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.footer-content2 {
+  font-size: 12px;
+  line-height: 15px;
+  color: #a0a0a0;
+  margin-top: 15px;
+}
+
+.footer-link {
+  color: #428bca;
+}
+
+.footer-link:hover {
+  text-decoration: dashed;
+}
+
+@media screen and (max-width: 1440px) {
+  .all-content {
+    width: 80%;
+  }
+
+  .footer-line {
+    width: 1000px;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .all-content {
+    width: 60%;
+  }
+
+  .footer-line {
+    width: 850px;
+  }
+
+  .footer {
+    width: 850px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .all-content {
+    width: 60%;
+  }
+
+  .footer-line {
+    width: 800px;
+  }
+
+  .footer {
+    width: 850px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .all-content {
+    width: 100%;
+  }
+
+  .content-detail {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+
+  .content-detail1 {
+    margin-top: 15px;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .detail-1 {
+    width: 100%;
+  }
+
+  .manufacture-detail {
+    width: 100%;
+  }
+
+  .note-content1 {
+    width: 30%;
+  }
+
+  .footer-line {
+    width: 650px;
+  }
+
+  .footer {
+    width: 650px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer-line {
+    width: 500px;
+  }
+
+  .footer {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .input {
+    width: 250px;
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+  .footer-line {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer-line {
+    width: 250px;
+  }
+  .footer {
+    width: 250px;
+  }
+}
