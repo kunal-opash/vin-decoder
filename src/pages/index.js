@@ -553,7 +553,7 @@ export default function Home() {
                         width: "100%",
                       }}
                     >
-                      <div>
+                      {/* <div>
                         <DirectionsCarFilledIcon
                           style={{
                             color: "orange",
@@ -561,7 +561,7 @@ export default function Home() {
                             width: "42px",
                           }}
                         />
-                      </div>
+                      </div> */}
                       {/* <div style={{ marginTop: "10px", fontSize: "16px" }}>
                         <a
                           href="#"
